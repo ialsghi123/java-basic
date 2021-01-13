@@ -23,6 +23,10 @@ class InstanceOfTest {
         System.out.println(fe.getClass().getName()); // 클래스의 이름을 출력
     }
 } // class
-class Car {}
+class Car {
+
+
+
+}
 class FireEngine extends Car {}
 
