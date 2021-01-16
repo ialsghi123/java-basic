@@ -1,7 +1,7 @@
 package practice02;
 
-//import java.util.*;
-//
+import java.util.*;
+
 //class Student implements Comparable {
 //    String name;
 //    int ban;
@@ -26,16 +26,16 @@ package practice02;
 //                +","+getTotal() +","+getAverage();
 //    }
 //
+//
+//    @Override
 //    public int compareTo(Object o) {
 //        if(o instanceof Student) {
-//            Student tmp = (Student) o;
-//
-//            return name.compareTo(tmp.name);
+//            Student s = (Student) o;
+//            return name.compareTo(s.name);
 //        } else {
 //            return -1;
 //        }
 //    }
-//
 //}
 //
 //public class Exercise11_5 {

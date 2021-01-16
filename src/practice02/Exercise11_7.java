@@ -1,5 +1,5 @@
-package practice02;
-
+//package practice02;
+//
 //import java.util.*;
 //
 //class Student {
@@ -37,11 +37,21 @@ package practice02;
 //} // class Student
 //class BanNoAscending implements Comparator {
 //    public int compare(Object o1, Object o2) {
-///*
-//(1) . 알맞은 코드를 넣어 완성하시오
-//*/      if(o1 instanceof Student && o2 instanceof Student) {
-//            Student s1 = new Student()
+//
+//        if(o1 instanceof Student && o2 instanceof Student) {
+//            Student s1 = (Student) o1;
+//            Student s2 = (Student) o2;
+//
+//            int result = s1.ban - s2.ban;
+//
+//            if(result==0) {
+//                return s1.no - s2.no;
+//            }
+//
+//            return result;
 //        }
+//
+//        return -1;
 //    }
 //}
 //
